@@ -1,1 +1,160 @@
+body {
+  margin: 0 100px;
+}
+header {
+  height: 100px;
+}
+#logo {
+  display: inline-block;
+  width: 350px;
+  padding-top: 25px;
+}
+#logo img {
+  float: left;
+}
 
+#share {
+  display: inline-block;
+  float: right;
+  padding-top: 38px;
+}
+#pizza {
+  display: block;
+  width: 100%;
+}
+div.main-content {
+  height: 30%;
+}
+#social-icons {
+  display: inline-block;
+  float: right;
+  padding-right: 1px;
+  padding-top: 38px;
+}
+#list {
+  width: 100%;
+  position: relative;
+}
+#list img {
+  width: 100%;
+}
+#social-icons :last-child {
+  padding-right: 8px;
+}
+#delicious {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.main-content {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-indent: 25px;
+  line-height: 20px;
+}
+ul {
+  position: absolute;
+  width: 30%;
+  top: 20%;
+  left: 50%;
+
+  list-style-type: square;
+}
+li {
+  font-size: 130%;
+  line-height: 30px;
+}
+#left-list {
+  padding-left: 40px;
+  right: 20%;
+}
+#right-list {
+  left: 17%;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+h2 {
+  font-weight: bold;
+}
+h3 {
+  font-size: x-small;
+}
+h4 {
+  font-size: small;
+  color: rgba(156, 141, 141, 0.76);
+}
+h5 {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+}
+#print {
+  display: block;
+  float: right;
+  padding-bottom: 20px;
+}
+#print p {
+  padding-left: 3px;
+  float: right;
+  font-size: small;
+  color: rgba(156, 141, 141, 0.76);
+}
+article {
+  /* border-top: solid 20px transparent;
+  border-bottom: solid 20px transparent;
+
+  border-image: url(./lab-assets/hr-img.png);
+  border-image-repeat: repeat; */
+
+  display: inline-block;
+  height: 70px;
+  width: 100%;
+}
+#author p,
+#author h5 {
+  width: 60%;
+  padding-left: 10%;
+}
+#author {
+  height: 70px;
+}
+#author img {
+  display: block;
+  float: left;
+}
+#author button {
+  float: right;
+  border: none;
+  padding: 10px 20px;
+  background-color: #ff824d;
+  color: white;
+  font: xx-large;
+  font-style: bold;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  padding: 65px 0;
+}
+
+footer img {
+  text-align: center;
+  padding-bottom: 25px;
+}
+footer div {
+}
+#small-logo {
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+#title {
+  padding: 10px;
+}
