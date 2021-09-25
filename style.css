@@ -52,25 +52,6 @@ div.main-content {
   text-indent: 25px;
   line-height: 20px;
 }
-ul {
-  position: absolute;
-  width: 30%;
-  top: 20%;
-  left: 50%;
-
-  list-style-type: square;
-}
-li {
-  font-size: 130%;
-  line-height: 30px;
-}
-#left-list {
-  padding-left: 40px;
-  right: 20%;
-}
-#right-list {
-  left: 17%;
-}
 h1 {
   font-size: xx-large;
   font-weight: bold;
@@ -104,14 +85,14 @@ h5 {
   color: rgba(156, 141, 141, 0.76);
 }
 article {
-  /* border-top: solid 20px transparent;
+  border-top: solid 20px transparent;
   border-bottom: solid 20px transparent;
 
   border-image: url(./lab-assets/hr-img.png);
-  border-image-repeat: repeat; */
+  border-image-repeat: repeat;
 
   display: inline-block;
-  height: 70px;
+
   width: 100%;
 }
 #author p,
@@ -146,8 +127,7 @@ footer img {
   text-align: center;
   padding-bottom: 25px;
 }
-footer div {
-}
+
 #small-logo {
   width: 100%;
   text-align: center;
@@ -157,4 +137,43 @@ footer p {
 }
 #title {
   padding: 10px;
+}
+
+#list img {
+  padding-top: 30px;
+  width: 100%;
+}
+#uls {
+  position: absolute;
+  top: 20%;
+  left: 60px;
+  width: 100%;
+}
+#image-fix {
+  width: 100%;
+}
+#list {
+  width: 100%;
+}
+
+input {
+  font-size: 125%;
+  display: inline;
+}
+label {
+  display: inline;
+  font-size: 125%;
+}
+#right {
+  width: 40%;
+  float: right;
+  padding-right: 15%;
+}
+#left {
+  width: 40%;
+  float: left;
+}
+#right div,
+#left div {
+  padding: 3px;
 }
